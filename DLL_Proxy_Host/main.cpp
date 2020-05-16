@@ -7,8 +7,8 @@ int main() {
 
 	//marshall and call dll
 
-	std::cout << "Answer: " << add(3,5) << "\n";
-	std::cout << "Regular sub function answer: " << (uint32_t)sub(3, 5) << "\n";
+	std::cout << "Answer: " << std::hex << (uint32_t)add(3,5) << "\n";
+	std::cout << "Regular sub function answer: " << std::dec << (uint32_t)sub(3, 5) << "\n";
 
 
 

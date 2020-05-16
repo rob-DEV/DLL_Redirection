@@ -9,14 +9,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DLL_Proxy_Host", "DLL_Proxy
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DLL_Proxy_Spoof", "DLL_Proxy_Spoof\DLL_Proxy_Spoof.vcxproj", "{F516BB49-5C47-4221-A662-7CCE7C73E861}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{F3E240C3-DAD8-4B57-8ABA-05B3C6231C94}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\..\Desktop\Dll Spoofing\DLL_Proxy_Host.exe = ..\..\..\..\..\Desktop\Dll Spoofing\DLL_Proxy_Host.exe
-		..\..\..\..\..\Desktop\Dll Spoofing\DLL_Proxy_Target.dll = ..\..\..\..\..\Desktop\Dll Spoofing\DLL_Proxy_Target.dll
-		..\..\..\..\..\Desktop\Dll Spoofing\DLL_Proxy_Target_ori.dll = ..\..\..\..\..\Desktop\Dll Spoofing\DLL_Proxy_Target_ori.dll
-		..\..\..\..\..\Desktop\Dll Spoofing\Target.txt = ..\..\..\..\..\Desktop\Dll Spoofing\Target.txt
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64

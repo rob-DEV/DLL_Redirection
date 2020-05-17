@@ -12,4 +12,16 @@
 
 extern "C" TARGET_API int add(int a, int b);
 
+
+class TARGET_API testclass
+{
+private:
+	int x, y;
+
+public:
+	testclass(int a, int b);
+	void print();
+
+};
+
 #endif
